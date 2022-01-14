@@ -35,20 +35,8 @@
 	a:link {
 		color: black;
 	}
-	#medium-link-responsive {
-		display: none;
-	}
-	#medium-link {
-		display: block;
-	}
 }
 
-#medium-link {
-	display: none;
-}
-#medium-link-responsive {
-	display: block;
-}
 #title {
 	font-size: 18px;
 }
