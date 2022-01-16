@@ -26,14 +26,37 @@
 }
 @media (max-width: 1000px) {
 	.blog-container {
+		/* display: block;
+		position: relative;
+		text-align: left;
+		flex-direction: row;
+		right: 0px; */
+		display: none;
+	}
+	a:link {
+		color: black;
+	}
+	#blog-list {
+		display: none;
+	}
+	.links-container-desktop {
+		display: none;
+	}
+	.links-container-mobile {
 		display: block;
 		position: relative;
 		text-align: left;
 		flex-direction: row;
 		right: 0px;
 	}
-	a:link {
-		color: black;
+}
+@media (min-width: 1001px) {
+	.links-container-mobile {
+		display: none;
+	}
+
+	.links-container-desktop {
+		display: block;
 	}
 }
 
