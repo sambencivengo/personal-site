@@ -15,6 +15,9 @@
 	font-size: 15 px;
 } */
 
+.logo {
+	max-height: 40px;
+}
 .blog-container {
 	display: flex;
 	flex-direction: column;
@@ -104,4 +107,6 @@ a:hover {
 
 .project-desc {
 	max-width: 600px;
+	font-size: 14px;
+	margin-bottom: 4em;
 }
