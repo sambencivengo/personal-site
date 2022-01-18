@@ -110,3 +110,8 @@ a:hover {
 	font-size: 14px;
 	margin-bottom: 4em;
 }
+.mailer {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
