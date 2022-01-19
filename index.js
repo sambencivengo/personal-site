@@ -22,5 +22,4 @@ fetchMedium(
 		blogElement.append(lineBreak);
 	}
 });
-
 console.log(blog);
