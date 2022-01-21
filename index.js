@@ -22,4 +22,10 @@ fetchMedium(
 		blogElement.append(lineBreak);
 	}
 });
+
+let modeButton = document.getElementById('dark-mode');
+modeButton.onclick = function () {
+	const body = document.body;
+	body.classList.toggle('dark-mode');
+};
 console.log(blog);
