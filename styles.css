@@ -61,6 +61,11 @@
 		display: none;
 	}
 }
+
+.dark-mode {
+	background-color: black;
+	color: white;
+}
 @media (min-width: 1001px) {
 	.links-container-mobile {
 		display: none;
