@@ -62,13 +62,6 @@
 	}
 }
 
-.dark-mode {
-	background-color: black;
-	color: white;
-}
-a:link.dark-mode {
-	color: white;
-}
 @media (min-width: 1001px) {
 	.links-container-mobile {
 		display: none;
@@ -137,4 +130,34 @@ a:hover {
 	position: fixed;
 	bottom: 30px;
 	right: 30px;
+}
+
+/* DARK MODE */
+.dark-mode {
+	background-color: rgb(15, 20, 12);
+	color: white;
+}
+body.dark-mode a:link {
+	color: white;
+}
+
+body.dark-mode a:link {
+	line-height: 1.8;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+body.dark-mode a:visited {
+	color: rgb(255, 255, 255);
+}
+body.dark-mode a:hover {
+	background-color: #ffae00;
+	/* background-color: #ffae00; */
+
+	color: black;
+}
+#title span {
+	background-color: #c5c5c518;
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
 }
