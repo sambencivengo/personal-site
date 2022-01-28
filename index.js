@@ -1,7 +1,11 @@
 let blog = {};
 
+const container = document.getElementById('blog-list');
 async function fetchMedium(url = '') {
 	const response = await fetch(url);
+	if (!response.ok) {
+		console.log(response.json());
+	}
 	return response.json();
 }
 
@@ -9,7 +13,6 @@ fetchMedium(
 	'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sambencivengo'
 ).then((data) => {
 	blog = data;
-	const container = document.getElementById('blog-list');
 	for (let blogPost of blog.items.slice(0, 3)) {
 		let blogElement = document.createElement('a');
 		let lineBreak = document.createElement('br');
@@ -19,6 +22,10 @@ fetchMedium(
 		blogElement.className = 'blog-element';
 		blogElement.append(lineBreak);
 	}
+	const moreOnMedium = document.createElement('a');
+	moreOnMedium.href = 'https://medium.com/@sambencivengo';
+	moreOnMedium.textContent = '{ ...more on Medium.com }';
+	container.append(moreOnMedium);
 });
 
 // let modeButton = document.getElementById('dark-mode');
