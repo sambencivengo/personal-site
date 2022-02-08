@@ -15,6 +15,17 @@
 	font-size: 15 px;
 } */
 
+#about-title {
+	margin-top: 50px;
+}
+#about-title span {
+	font-size: 22px;
+	background-color: #c5c5c518;
+}
+.about {
+	margin-left: 40px;
+	max-width: 600px;
+}
 .logo {
 	max-height: 40px;
 }
@@ -75,6 +86,7 @@
 	}
 	.contact-info-desktop {
 		/* margin-bottom: 20px; */
+		margin-left: 40px;
 	}
 	.contact-info-mobile {
 		margin-bottom: 20px;
@@ -83,11 +95,12 @@
 
 	.links-container-desktop {
 		display: block;
+		margin-left: 40px;
 	}
 }
 
 #title {
-	font-size: 18px;
+	font-size: 28px;
 }
 .links-container {
 	margin-top: 20px;
@@ -112,12 +125,15 @@ a:hover {
 }
 
 .portfolio-container {
-	margin-top: 50px;
+	margin-left: 40px;
 }
 
+#portfolio-title {
+	margin-top: 50px;
+}
 #portfolio-title span {
-	font-size: 18px;
-	background-color: #72727218;
+	font-size: 22px;
+	background-color: #c5c5c518;
 }
 
 .portfolio-item {
@@ -141,7 +157,7 @@ a:hover {
 
 /* DARK MODE */
 .dark-mode {
-	background-color: rgb(15, 20, 12);
+	background-color: rgb(18, 24, 36);
 	color: white;
 }
 body.dark-mode a:link {

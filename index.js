@@ -6,6 +6,7 @@ async function fetchMedium(url = '') {
 	if (!response.ok) {
 		console.log(response.json());
 	}
+	console.log(response);
 	return response.json();
 }
 
