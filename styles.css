@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Fira+Code&family=Noto+Sans&family=Racing+Sans+One&display=swap');
-
+body {
+	background-color: #f7f2f2;
+}
 .body {
 	font-family: 'Fira Code', monospace;
 	margin-left: 100px;
@@ -179,7 +181,7 @@ body.dark-mode a:hover {
 	color: black;
 }
 #title span {
-	background-color: #c5c5c518;
+	background-color: #64393918;
 	width: auto;
 	padding-left: 5px;
 	padding-right: 5px;
