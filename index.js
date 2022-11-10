@@ -29,12 +29,6 @@ fetchMedium(
 	container.append(moreOnMedium);
 });
 
-// let modeButton = document.getElementById('dark-mode');
-// modeButton.onclick = function () {
-// 	const body = document.body;
-// 	body.classList.toggle('dark-mode');
-// };
-
 const currentTime = new Date();
 
 const day = new Date();
